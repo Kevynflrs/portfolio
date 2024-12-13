@@ -1,11 +1,12 @@
-import Header from "./template/Header";
-import Footer from "./template/Footer";
-import Main from "./template/Main";
+import "./globals.css";
+import Header from "./Template/Header";
+import Footer from "./Template/Footer";
+import Main from "./Template/Main";
 
 export default function Home() {
   return (
     <body>
-      <header>
+      <header className="fixed top-0">
         <Header />
       </header>
       <main>

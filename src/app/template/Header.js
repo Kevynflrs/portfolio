@@ -1,6 +1,8 @@
+import "../globals.css";
+
 export default function Header() {
     return (
-        <div>
+        <div className="flex jusify-center">
             <a href="">à propos</a>
             <a href="">Tableau de synthèse</a>
             <a href="">Compétences</a>
