@@ -1,20 +1,36 @@
-import "./globals.css";
-import Header from "./Template/Header";
-import Footer from "./Template/Footer";
-import Main from "./Template/Main";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <body>
-      <header className="fixed top-0">
-        <Header />
+    <div className="">
+      <header className="">
+        <a href="" className="">
+          à propos
+        </a>
+        <a href="" className="">
+          Tableau de synthèse
+        </a>
+        <a href="" className="">
+          Compétences
+        </a>
+        <a href="" className="">
+          Projets
+        </a>
+        <a href="" className="">
+          Expériences
+        </a>
+        <a href="" className="">
+          Veille
+        </a>
+        <a href="" className="">
+          Contact
+        </a>
       </header>
-      <main>
-        <Main />
+      <main className="">
+        
       </main>
-      <footer>
-        <Footer />
+      <footer className="">
       </footer>
-    </body>
+    </div>
   );
 }
