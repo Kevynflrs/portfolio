@@ -14,6 +14,10 @@
   }
 }
 
+header, footer{
+  background-color: #D5D1DE
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
