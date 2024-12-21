@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <div id="Contact" className="bg-[#d5d1de] border-solid border-[#000000] border-t w-full h-[153px]">
+        <div id="Contact" className="relative  bg-[#d5d1de] w-full h-[153px] border-solid border-black border-t">
             <div id="Infos">
                 <div>
                     <Image
@@ -13,11 +13,11 @@ export default function Footer() {
                         width={32}
                         height={32}
                     />
-                    <div className="text-[#000000] text-left text-[32px] font-normal absolute left-[86px] top-[25px] w-[521px] h-8">
+                    <div className="text-[32px] absolute left-[86px] top-[25px] w-[521px] h-8">
                         kevyn.floresdacosta@outlook.com
                     </div>
                 </div>
-                <div>
+                <div className="">
                     <Image
                         className="absolute left-10 top-24"
                         src="/phone.png"
@@ -25,7 +25,7 @@ export default function Footer() {
                         width={32}
                         height={32}
                     />
-                    <div className="text-[#000000] text-left text-[32px] font-normal absolute left-[86px] top-24 w-[278px] h-8">
+                    <div className="text-[32px] absolute left-[86px] top-24 w-[278px] h-8">
                         +33 6 51 58 91 03
                     </div>
                 </div>

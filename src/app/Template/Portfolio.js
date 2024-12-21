@@ -5,7 +5,6 @@ import '../globals.css';
 export default function Portfolio() {
   return (
     <div>
-
     </div>
   );
 };
