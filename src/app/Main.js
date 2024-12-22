@@ -1,6 +1,7 @@
 import "./globals.css";
 import Image from 'next/image';
 import AboutSection from "./Template/About";
+import SynthèseSection from "./Template/Synthèse";
 
 export default function Main() {
   return (
@@ -19,6 +20,8 @@ export default function Main() {
         </div>
       </div>
       <AboutSection />
+      <SynthèseSection />
+      
     </div>
   );
 }
