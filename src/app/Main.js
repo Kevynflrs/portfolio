@@ -1,11 +1,12 @@
 import "./globals.css";
 import Image from 'next/image';
-import Portfolio from "./Template/Portfolio";
+import AboutSection from "./Template/About";
+import SynthèseSection from "./Template/Synthèse";
 
 export default function Main() {
   return (
-    <div className="">
-      <div className="">
+    <div>
+      <div>
         <Image
           className="w-full h-full object-cover"
           src="/HomePage.jpg"
@@ -18,7 +19,9 @@ export default function Main() {
           <h2 className="text-3xl">Etudiant en dévelopement FullStack/IA</h2>
         </div>
       </div>
-      <Portfolio />
+      <AboutSection />
+      <SynthèseSection />
+      
     </div>
   );
 }
