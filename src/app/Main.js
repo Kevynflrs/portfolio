@@ -2,6 +2,7 @@ import "./globals.css";
 import Image from 'next/image';
 import AboutSection from "./Template/About";
 import SynthèseSection from "./Template/Synthèse";
+import Skills from "./Template/Skills";
 
 export default function Main() {
   return (
@@ -21,6 +22,7 @@ export default function Main() {
       </div>
       <AboutSection />
       <SynthèseSection />
+      <Skills />
       
     </div>
   );
