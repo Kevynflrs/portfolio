@@ -7,7 +7,7 @@ import Skills from "./Template/Skills";
 export default function Main() {
   return (
     <div>
-      <div>
+      <div id="Home">
         <Image
           className="w-full h-full object-cover"
           src="/HomePage.jpg"

@@ -4,12 +4,12 @@ import '../globals.css';
 
 export default function AboutSection() {
   return (
-    <div className="p-10">
+    <div id='About' className="p-10">
       <h2 className="text-3xl font-bold p-2">A propos</h2>
 
       <div className='flex flex-row'>
-        <div>
-          <p className="text-xl font-medium p-5 basis-4/6">
+        <div className='flex flex-col basis-3/6'>
+          <p className="text-xl font-medium p-5">
             Bonjour et bienvenue sur mon portfolio.
             <br />
             Je m&apos;appelle Kevyn Flores Da Costa, j&apos;ai 19 ans et je suis originaire de Lyon.
@@ -40,7 +40,7 @@ export default function AboutSection() {
             <br />
             Si vous souhaitez en savoir plus sur moi, mes compétences et mes différents projets, ou tout simplement savoir
             comment me contacter, n&apos;hésitez pas à explorer ce site.
-            <br /> 
+            <br />
             Vous pouvez consulter mon CV et ma lettre de motivation
             grâce au bouton ci-dessous.
           </p>
@@ -57,14 +57,15 @@ export default function AboutSection() {
             </button>
           </div>
         </div>
-
-        <Image
-          className="basis-2/6"
-          src="/photo.jpg"
-          width={450}
-          height={506}
-          alt="Kevyn Flores Da Costa"
-        />
+        <div className='flex justify-center items-center basis-3/6'>
+          <Image
+            className="w-[550] h-[675] rounded-2xl"
+            src="/photo.jpg"
+            width={450}
+            height={506}
+            alt="Kevyn Flores Da Costa"
+          />
+        </div>
       </div>
     </div>
   );
