@@ -3,25 +3,25 @@ import "./globals.css";
 export default function Head() {
     return (
         <div className="flex items-center justify-center space-x-48 h-16 text-2xl opacity-90 border-b border-b-black bg-[#d5d1de]">
-            <a href="" className="">
+            <a href="">
                 à propos
             </a>
-            <a href="" className="">
+            <a href="">
                 Tableau de synthèse
             </a>
-            <a href="" className="">
+            <a href="#Compétences">
                 Compétences
             </a>
-            <a href="" className="">
+            <a href="">
                 Projets
             </a>
-            <a href="" className="">
+            <a href="">
                 Expériences
             </a>
-            <a href="" className="">
+            <a href="">
                 Veille
             </a>
-            <a href="" className="#Contact">
+            <a href="#Contact">
                 Contact
             </a>
         </div>

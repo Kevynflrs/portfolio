@@ -5,7 +5,7 @@ import '../globals.css';
 export default function Skills() {
     return (
         <div className="p-10">
-            <div className="text-3xl font-bold p-2">
+            <div id='Compétences' className="text-3xl font-bold p-2">
                 Compétences
             </div>
 
@@ -15,28 +15,30 @@ export default function Skills() {
                     Front-end
                 </div>
                 <div className="flex justify-center">
-                    <div className="flex justify-center flex-row space-x-52 bg-[#d5d1de] rounded-[25px] w-[1256px] h-44">
+                    <div className="flex justify-center items-center flex-row space-x-52 bg-[#d5d1de] rounded-[25px] w-[1256px] h-44">
                         <Image
-                            className=""
+                            className="w-32 h-32"
                             src="/css.png"
                             alt="CSS"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/Feuilles_de_style_en_cascade"
+                            width={128}
+                            height={128}
                         />
                         <Image
-                            className=""
-                            style={{ objectFit: 'cover' }}
+                            className="w-32 h-32"
                             src="/js.png"
                             alt="JavaScript"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/JavaScript"
+                            width={128}
+                            height={128}
                         />
                         <Image
-                            className=""
+                            className="w-32 h-32"
                             src="/html.png"
                             alt="HTML"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/HTML5"
+                            width={128}
+                            height={128}
                         />
                     </div>
                 </div>
@@ -48,34 +50,38 @@ export default function Skills() {
                     Back-end
                 </div>
                 <div className="flex justify-center">
-                    <div className="flex justify-center flex-row space-x-52 bg-[#d5d1de] rounded-[25px] w-[1256px] h-44">
+                    <div className="flex justify-center items-center flex-row space-x-44 bg-[#d5d1de] rounded-[25px] w-[1256px] h-44">
                         <Image
-                            className=""
+                            className="w-32 h-32"
                             src="/php.png"
                             alt="PHP"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/PHP"
+                            width={128}
+                            height={128}
                         />
                         <Image
-                            className=""
+                            className="w-32 h-32"
                             src="/mysql.png"
                             alt="MySQL"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/MySQL"
+                            width={128}
+                            height={128}
                         />
                         <Image
-                            className=""
+                            className="w-32 h-32"
                             src="/python.png"
                             alt="Python"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/Python_(langage)"
+                            width={128}
+                            height={128}
                         />
                         <Image
-                            className=""
+                            className="w-32 h-32"
                             src="/sql.png"
                             alt="SQL"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/Structured_Query_Language"
+                            width={128}
+                            height={128}
                         />
                     </div>
                 </div>
@@ -87,27 +93,30 @@ export default function Skills() {
                     Framework
                 </div>
                 <div className="flex justify-center">
-                    <div className="flex justify-center flex-row space-x-52 bg-[#d5d1de] rounded-[25px] w-[1256px] h-44">
+                    <div className="flex justify-center items-center flex-row space-x-52 bg-[#d5d1de] rounded-[25px] w-[1256px] h-44">
                         <Image
-                            className=""
+                            className="w-32 h-32"
                             src="/vuejs.png"
                             alt="Vue.js"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/Vue.js"
+                            width={128}
+                            height={128}
                         />
                         <Image
-                            className=""
+                            className="w-32 h-32"
                             src="/react.png"
                             alt="React"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/React"
+                            width={128}
+                            height={128}
                         />
                         <Image
-                            className=""
+                            className="w-32 h-32"
                             src="/angular.png"
                             alt="Angular"
-                            width={100}
-                            height={100}
+                            href="https://fr.wikipedia.org/wiki/Angular"
+                            width={128}
+                            height={128}
                         />
                     </div>
                 </div>
